@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f8fa;
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 30px 0px 30px;
+}
+
+.links{
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.01px;
+}
+
+.links a{
+  text-decoration: none;
+  margin-left: 20px;
+  color: #1D2C3C;
+}
+
+.acc{
+  border-radius: 6px;
+  padding: 5px;
+  border: 2px solid #646E7A;
+}
+
+hr {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.main_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+  height: 85vh;
+  margin-top: 5%;
+}
+
+.left {
+  width: 66%;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+
+.checkout {
+  color: #1d2c3c;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.basic_info {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.one, .two {
+  color: #548bc5;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.142px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: solid 2px #548bc5;
+  border-radius: 50%;
+}
+
+.info {
+  color: #1d2c3c;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.16px;
+  margin-left: 10px;
+}
+
+.names {
+  display: flex;
+  margin-top: 10px;
+}
+.input input,
+.email input {
+  margin-top: 8px;
+  padding: 10px;
+}
+
+.input input {
+  width: 90%;
+}
+
+.email {
+  margin-top: 10px;
+  width: 80%;
+}
+
+.email input {
+  width: 100%;
+}
+
+.card input {
+  width: 100%;
+}
+
+.email input,
+.card input,
+.input input {
+  border-radius: 5px;
+  background: #edeff2;
+  border: none;
+  height: 36px;
+}
+
+#buy_button {
+  width: 100%;
+  border-radius: 5px;
+  background: #038e7d;
+  height: 40px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.396px;
+  margin-top: 20px;
+}
+
+.help {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.question_mark {
+  color: #548bc5;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: -0.142px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border: solid 2px #548bc5;
+  border-radius: 50%;
+  margin-right: 3px;
+}
+
+.text {
+  color: #646e7a;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.01px;
+}
+
+.diff_prop {
+  color: #1d2c3c;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.01px;
+  margin-right: 3px;
+}
+
+.powered_by_stripe {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  width: 34%;
+  border-radius: 0px 6px 6px 0px;
+  background: #1179bf;
+  padding: 20px;
+}
+
+.freelancer {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.01px;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+}
+
+.dollar {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.015px;
+  margin-bottom: 20px;
+  margin-right: 3px;
+}
+
+.ninety_nine {
+ color: #fff;
+ font-size: 60px;
+ font-style: normal;
+ font-weight: 300;
+ line-height: normal;
+ letter-spacing: -0.015px;
+ margin-right: 3px;
+}
+
+.year {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.015px;
+  margin-top: 30px;
+}
+
+.renewal, .tick_box {
+  color: #fff;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.008px;
+  margin-top: 7px;
+}
+
+.img_and_text img{
+  margin-top: 5px;
+  height: 2.5vh;
+  width: 25px;
+}
+
+.five {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.008px;
+}
+
+.text_link, .switch a{
+color: #fff;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.008px;
+margin-top: 10px;
+}
+
+.switch a{
+  margin-top: 5px;
+  text-decoration: none;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.008px;
+}
+
+.twenty {
+  color: #fff;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.008px;
+}
+
+.agency {
+  color: #fff;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.008px;
+}
+
+.line{
+  margin-top: 20px;
+}
+
+.last_paragraph {
+  color: #fff;
+  font-family: Lato;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.009px;
+  margin-top: 10px;
+}
+
+.wp_pusher {
+  color: #fff;
+  font-family: Lato;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.009px;
+}
+
+.img_user {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.img_user img {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;  
+}
+
+.img_user span {
+  color: #fff;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.008px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width:1024px) {
+  nav{
+        display: none;
+  }
+  .container{
+        flex-direction: column;
+        width: 95%;
+  }
+  .left{
+        width: 100%;
+  }
+  .right{
+        width: 100%;
+  }
+}
